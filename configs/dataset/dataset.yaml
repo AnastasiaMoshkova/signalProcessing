@@ -1,5 +1,5 @@
 
-data_path: "C:\\Users\\kafed\\Downloads\\signalProcessing\\data\\signal_dataset.csv"
+data_path: "windows_path_to\\signalProcessing\\data\\signal_dataset.csv"
 
 
 train_dataset: 
