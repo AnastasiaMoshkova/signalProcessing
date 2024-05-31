@@ -1,0 +1,30 @@
+
+data_path: "C:\\Users\\kafed\\Downloads\\signalProcessing\\data\\signal_dataset.csv"
+
+
+train_dataset: 
+  _target_: dataset.signaldataset.SignalDataset
+
+val_dataset: 
+  _target_: dataset.signaldataset.SignalDataset
+
+test_dataset: 
+  _target_: dataset.signaldataset.SignalDataset
+
+
+train_dataloader:
+  _target_: torch.utils.data.DataLoader
+  batch_size: 8
+  drop_last: true
+  num_workers: 10
+
+val_dataloader:
+  _target_: torch.utils.data.DataLoader
+  batch_size: 8
+  num_workers: 10
+
+test_dataloader:
+  _target_: torch.utils.data.DataLoader
+  batch_size: 1
+  num_workers: 10
+

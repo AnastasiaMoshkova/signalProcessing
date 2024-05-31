@@ -1,0 +1,7 @@
+_target_: pytorch_lightning.Trainer
+accelerator: cpu
+default_root_dir: experiments/
+devices: 1
+max_epochs: 2
+check_val_every_n_epoch: 1
+gradient_clip_val: 0.5

@@ -1,0 +1,10 @@
+defaults:
+- _self_
+- dataset: dataset
+- logger: wandb
+- model: mlp
+- trainer: custom
+- optimizer: nn_reg
+- hydra: default
+
+task_name: mlp_signal_processing

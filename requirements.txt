@@ -1,0 +1,7 @@
+albumentation
+torch~=1.13.1
+omegaconf~=2.3.0
+numpy~=1.25.2
+pandas~=2.1.1
+optuna~=3.6.1
+tqdm~=4.66.4

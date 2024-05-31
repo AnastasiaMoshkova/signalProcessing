@@ -1,0 +1,8 @@
+_target_: models.mlp.MlpModel
+config:
+  input_ch: 1600
+  output_dim: 1
+  linear1: 20
+  num_blocks:
+  - 4
+  - 4
